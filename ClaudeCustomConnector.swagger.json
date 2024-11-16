@@ -1,0 +1,51 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ClaudeCustomConnector",
+    "version": "1.0",
+    "description": "Import from \"ClaudeCustomConnector\" Function App"
+  },
+  "host": "claudecustomconnector-apim.azure-api.net",
+  "basePath": "/ClaudeCustomConnector",
+  "schemes": [
+    "https"
+  ],
+  "securityDefinitions": {
+    "apiKeyHeader": {
+      "type": "apiKey",
+      "name": "Ocp-Apim-Subscription-Key",
+      "in": "header"
+    }
+  },
+  "security": [
+    {
+      "apiKeyHeader": []
+    },
+    {
+      "apiKeyQuery": []
+    }
+  ],
+  "paths": {
+    "/GetResponse": {
+      "get": {
+        "operationId": "get-getresponse",
+        "summary": "GetResponse",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      },
+      "post": {
+        "operationId": "post-getresponse",
+        "summary": "GetResponse",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "tags": []
+}
